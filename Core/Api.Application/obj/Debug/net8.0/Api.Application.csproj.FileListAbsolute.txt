@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\bin\Debug\net8.0\Api.Application.deps.json
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\bin\Debug\net8.0\Api.Application.dll
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\bin\Debug\net8.0\Api.Application.pdb
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.AssemblyInfo.cs
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.sourcelink.json
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.dll
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\refint\Api.Application.dll
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.pdb
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\ref\Api.Application.dll
