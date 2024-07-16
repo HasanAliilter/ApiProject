@@ -142,3 +142,5 @@ C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Persistence.dll
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Persistence.pdb
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Domain.pdb
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Application.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Application.pdb

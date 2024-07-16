@@ -913,6 +913,15 @@
           }
         }
       },
+      "Api.Application/1.0.0": {
+        "dependencies": {
+          "Api.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.7"
+        },
+        "runtime": {
+          "Api.Application.dll": {}
+        }
+      },
       "Api.Domain/1.0.0": {
         "runtime": {
           "Api.Domain.dll": {}
@@ -920,6 +929,7 @@
       },
       "Api.Persistence/1.0.0": {
         "dependencies": {
+          "Api.Application": "1.0.0",
           "Api.Domain": "1.0.0",
           "Bogus": "35.5.1",
           "Microsoft.EntityFrameworkCore": "8.0.7",
@@ -1510,6 +1520,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Api.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Api.Domain/1.0.0": {
       "type": "project",

@@ -10,3 +10,7 @@ C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Applic
 C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\refint\Api.Application.dll
 C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.pdb
 C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\ref\Api.Application.dll
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\bin\Debug\net8.0\Api.Domain.dll
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\bin\Debug\net8.0\Api.Domain.pdb
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ApiSln\Core\Api.Application\obj\Debug\net8.0\Api.Application.csproj.CopyComplete

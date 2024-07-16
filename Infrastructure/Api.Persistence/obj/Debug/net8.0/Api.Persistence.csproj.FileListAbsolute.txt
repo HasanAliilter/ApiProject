@@ -16,3 +16,5 @@ C:\Users\HP\source\repos\ApiSln\Infrastructure\Api.Persistence\obj\Debug\net8.0\
 C:\Users\HP\source\repos\ApiSln\Infrastructure\Api.Persistence\obj\Debug\net8.0\Api.Persistence.pdb
 C:\Users\HP\source\repos\ApiSln\Infrastructure\Api.Persistence\obj\Debug\net8.0\Api.Persistence.genruntimeconfig.cache
 C:\Users\HP\source\repos\ApiSln\Infrastructure\Api.Persistence\obj\Debug\net8.0\ref\Api.Persistence.dll
+C:\Users\HP\source\repos\ApiSln\Infrastructure\Api.Persistence\bin\Debug\net8.0\Api.Application.dll
+C:\Users\HP\source\repos\ApiSln\Infrastructure\Api.Persistence\bin\Debug\net8.0\Api.Application.pdb
