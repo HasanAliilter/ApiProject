@@ -1591,6 +1591,20 @@
           }
         }
       },
+      "Api.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Api.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.7"
+        },
+        "compile": {
+          "bin/placeholder/Api.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.Application.dll": {}
+        }
+      },
       "Api.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1605,6 +1619,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Api.Application": "1.0.0",
           "Api.Domain": "1.0.0",
           "Bogus": "35.5.1",
           "Microsoft.EntityFrameworkCore": "8.0.7",
@@ -4532,6 +4547,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Api.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Api.Application/Api.Application.csproj",
+      "msbuildProject": "../../Core/Api.Application/Api.Application.csproj"
     },
     "Api.Domain/1.0.0": {
       "type": "project",
