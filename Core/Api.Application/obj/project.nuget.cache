@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nEGrmxzA1sxEmtckL+dmKKq2sZ6dqUG94nr/U52TEqq68FtfM6d/gQqD9o/vP3siJT25vAzF5KONdGtMmMpLcA==",
+  "dgSpecHash": "hFYPoo7Qqqf1GTaGZEBPGGN5VBObViq0fE5Sdct2SJ4pRHLIw9gbaBh4nTUwOjnsQYkphTMnK2R7a7Nn/1uicA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\ApiSln\\Core\\Api.Application\\Api.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.7\\microsoft.entityframeworkcore.analyzers.8.0.7.nupkg.sha512",
