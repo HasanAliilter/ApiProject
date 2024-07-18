@@ -26,6 +26,13 @@ namespace Api.Persistence.Repository
 
             return await queryable.ToListAsync();
         }
+        //Örnek kullanım
+        //var products = await repository.GetAllAsync(
+        //    predicate: p => p.Price > 100 && p.CategoryId == 10, // Fiyatı 100'den fazla ve CategoryId'si 10 olan ürünler
+        //    include: q => q.Include(p => p.Category), // Ürünler ve kategorileri
+        //    orderBy: q => q.OrderBy(p => p.Name), // Ürünleri ada göre sırala
+        //    enableTracking: false // İzleme kapalı
+        //);
 
         public async Task<IList<T>> GetAllByPagingAsync(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, bool enableTracking = false, int currentPage = 1, int pageSize = 3)
         {

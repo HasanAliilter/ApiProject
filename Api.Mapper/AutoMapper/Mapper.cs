@@ -6,7 +6,7 @@ namespace Api.Mapper.AutoMapper
 {
     public class Mapper : Application.Interface.AutoMapper.IMapper
     {
-        public static List<TypePair> typePairs = new();
+        public static List<TypePair> typePairs = new(); //yapılandırılmış tür çiftlerini saklayan bir yapı
         private IMapper MapperContainer;
 
         public TDestination Map<TDestination, TSource>(TSource source, string? ignore = null)
@@ -37,19 +37,19 @@ namespace Api.Mapper.AutoMapper
         {
             var typePair = new TypePair(typeof(TSource), typeof(TDestination));
 
-            if (typePairs.Any(a => a.DestinationType == typePair.DestinationType && a.SourceType == typePair.SourceType) && ignore is null)
+            if (typePairs.Any(a => a.DestinationType == typePair.DestinationType && a.SourceType == typePair.SourceType) && ignore is null) // yapılandırma zaten mevcutsa yeni yapılandırma oluşturma
                 return;
-
+            //var products = mapper.Map<ProductDto, Product>(productDto, "Price"); mesela burada ignore ye price verildiği zaman price özelliği maplenmeyecektir
             typePairs.Add(typePair);
-            var config = new MapperConfiguration(cfg =>
+            var config = new MapperConfiguration(cfg =>  // AutoMapper yapılandırmalarını tanımlamak için lazım
             {
                 foreach (var item in typePairs)
                 {
                     if (ignore is not null)
-                        cfg.CreateMap(item.SourceType, item.DestinationType).MaxDepth(depth).ForMember(ignore, x => x.Ignore()).ReverseMap();
+                        cfg.CreateMap(item.SourceType, item.DestinationType).MaxDepth(depth).ForMember(ignore, x => x.Ignore()).ReverseMap(); //ignore null değilse göz ardı edeceğimiz özelliği belirtmeliyiz
 
                     else
-                        cfg.CreateMap(item.SourceType, item.DestinationType).MaxDepth(depth).ReverseMap();
+                        cfg.CreateMap(item.SourceType, item.DestinationType).MaxDepth(depth).ReverseMap(); //ilk createmap ile veri türlerini mapliyoruz sonrasında depth değerini verip karşılıklı maplensin diye reversemap özelliğini kullanıyoruz
                 }
             });
 
