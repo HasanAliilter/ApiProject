@@ -146,3 +146,7 @@ C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Application.pdb
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\MediatR.dll
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Mapper.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Mapper.pdb
