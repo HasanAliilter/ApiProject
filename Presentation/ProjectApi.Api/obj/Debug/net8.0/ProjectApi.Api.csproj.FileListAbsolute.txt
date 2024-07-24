@@ -153,3 +153,5 @@ C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\SendGrid.dll
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\StarkbankEcdsa.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

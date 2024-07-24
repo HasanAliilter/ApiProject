@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lBK1byGpgoKRhiMjWyGeyJ8pORIevgBOI3GLGEVJNob/O1laRN+U/ft6rb4PqXmBu7jUZ4ipRe4qkM1DsgKPsA==",
+  "dgSpecHash": "Y/GLmFPPjpPED0Sv4VhN+8E9ZtQpVILx2KCO243akgajhrHvRvxTwW4JW+tsEeqIyIsnQM2dn+ZOqBHcUnl88Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\ApiSln\\Api.Mapper\\Api.Mapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
