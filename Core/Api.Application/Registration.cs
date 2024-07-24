@@ -1,11 +1,10 @@
-﻿using Api.Application.Exceptions;
+﻿using Api.Application.Behaviors;
+using Api.Application.Exceptions;
+using FluentValidation;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Globalization;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Api.Application
 {
@@ -14,8 +13,14 @@ namespace Api.Application
         public static void AddApplication(this IServiceCollection services)
         {
             var assembly = Assembly.GetExecutingAssembly();
+
             services.AddTransient<ExceptionMiddleware>();
+
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(assembly));
+
+            services.AddValidatorsFromAssembly(assembly);
+            ValidatorOptions.Global.LanguageManager.Culture = new CultureInfo("tr");
+            services.AddTransient(typeof(IPipelineBehavior<,>),typeof(FluentValidationBehavior<,>)); //Mediatr isteklerini doğrulama için fluentvalidationbehavior u kullanacağımızı söylüyoruz
         }
     }
 }

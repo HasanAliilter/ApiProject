@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tdXzlTJptsSlPpJA7HbD0Jmvb8+XhVtsNYC5IW7Gh/6miMFPvCtCmc68yv7tlhHb3bx/TY+LkBED7/IPfoBhvQ==",
+  "dgSpecHash": "D9S+qTFnKMJ6vTUvAJ4bS9u9whV2v6dxFy+u8IKot+jF0lKjvLLggnvwwihrSe+DaP4/Wt26Zkua9cGdbxTpdg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\ApiSln\\Presentation\\ProjectApi.Api\\ProjectApi.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\bogus\\35.5.1\\bogus.35.5.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
