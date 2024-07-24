@@ -150,3 +150,6 @@ C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Aut
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Mapper.dll
 C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Api.Mapper.pdb
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\SendGrid.dll
+C:\Users\HP\source\repos\ApiSln\Presentation\ProjectApi.Api\bin\Debug\net8.0\StarkbankEcdsa.dll
